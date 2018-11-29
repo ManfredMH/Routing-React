@@ -1,0 +1,15 @@
+.navegation {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+    padding-bottom: 3rem;
+}
+.navegation a {
+    font-size: 1rem;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.navegation a.active {
+    color: #ffce00;
+}
